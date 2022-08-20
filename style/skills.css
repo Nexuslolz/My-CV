@@ -18,8 +18,10 @@
 }
 
 .skills-list__img {
-    width: 44px;
-    height: 44px;
+    width: 4vw;
+    height: 4vw;
+    max-width: 42px;
+    max-height: 42px;
 }
 
 @keyframes skill-rotate {

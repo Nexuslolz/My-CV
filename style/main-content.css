@@ -10,6 +10,8 @@
     padding-top: 5%;
     padding-bottom: 5%;
     min-width: 0;
+    width: 56vw;
+    max-width: 920px;
 }
 
 .main-content:last-child {
