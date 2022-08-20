@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/index.js" defer></script>
+    <link rel="icon" href="./img/myLogo.ico" />
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/contacts.css" />
+    <link rel="stylesheet" href="./style/skills.css" />
+    <link rel="stylesheet" href="./style/lang.css" />
+    <link rel="stylesheet" href="./style/main-content.css" />
+    <link rel="stylesheet" href="./style/education.css" />
+    <link rel="stylesheet" href="./style/code.css" />
+    <link rel="stylesheet" href="./style/projects.css" />
+    <link rel="stylesheet" href="./style/breakpoints.css" />
+    <link rel="stylesheet" href="./style/production.css" />
+    <link rel="stylesheet" href="./style/content-box.css" />
+    <link rel="stylesheet" href="./style/slider.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>Alexandr Klyosov CV</title>
+  </head>
+  <body class="page__body">
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__list main-nav__list_close">
+          <div class="main-nav__wrapper">
+            <button class="main-nav__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </div>
+          <ul class="site-list">
+            <li class="site-list__item">
+              <a href="#contacts" class="site-list__link"> Контакты</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#about" class="site-list__link"> Обо мне</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#education" class="site-list__link"> Образование</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#code" class="site-list__link"> Мой код</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#skills" class="site-list__link"> Навыки</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#projects" class="site-list__link"> Мои проекты</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#lang" class="site-list__link"> Языки</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <div class="page-main__left-column">
+        <section class="content-box">
+          <img
+            class="content-box__img"
+            src="./img/631127710.jpeg"
+            alt="My photo"
+          />
+          <h1 class="content-box__name">Александр Юрьевич Клёсов</h1>
+        </section>
+        <div class="divide"></div>
+        <section id="contacts" class="content-box">
+          <h2 class="content-box__header">Контакты</h2>
+          <ul class="content-box__body contact-list">
+            <li class="contact-list__item">
+              <img
+                src="./img/vk.svg"
+                alt="vk"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a
+                href="https://vk.com/nexuslolz"
+                target="_blank"
+                class="contact-list__link"
+                >vk.com/nexuslolz
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/Telegram.svg"
+                alt="telegram"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a
+                href="https://t.me/nexuslolz"
+                target="_blank"
+                class="contact-list__link"
+              >
+                t.me/nexuslolz
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/GitHub.svg"
+                alt="github"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a
+                href="https://github.com/Nexuslolz"
+                target="_blank"
+                class="contact-list__link"
+              >
+                github.com/Nexuslolz
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/email.svg"
+                alt="email"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="contact-list__info">a.klyosov@inbox.ru </span>
+            </li>
+          </ul>
+        </section>
+        <div class="divide"></div>
+        <section id="skills" class="content-box">
+          <h2 class="content-box__header">Навыки</h2>
+          <ul class="content-box__body skills-list">
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/html.svg"
+                  alt="html"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> HTML </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/css.svg"
+                  alt="css"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> CSS </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/sass.svg"
+                  alt="sass"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> SASS </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/javascript.svg"
+                  alt="js"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> JavaScript </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/git-icon-logo.svg"
+                  alt="git"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> Git </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/figma.svg"
+                  alt="figma"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> Figma </span>
+            </li>
+            <li class="skills-list__item">
+              <div class="skills-list__wrapper">
+                <img
+                  src="./img/jquery-logo.svg"
+                  alt="jquery"
+                  class="skills-list__img"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <span class="skills-list__help"> JQuery </span>
+            </li>
+          </ul>
+        </section>
+        <div class="divide"></div>
+        <section id="lang" class="content-box">
+          <h2 class="content-box__header">Языки</h2>
+          <ul class="content-box__body" id="lang-list">
+            <li class="lang-list__item">
+              <h3 class="lang-list__name">Русский</h3>
+              <span class="lang-list__level">Родной</span>
+            </li>
+            <li class="lang-list__item">
+              <h3 class="lang-list__name">English</h3>
+              <span class="lang-list__level">Intermediate</span>
+            </li>
+          </ul>
+        </section>
+        <div class="divide"></div>
+      </div>
+      <div class="page-main__right-column">
+        <section class="main-content">
+          <div id="about" class="main-content__head">
+            <img
+              src="./img/aboutme.svg"
+              alt="about me icon"
+              class="main-content__img"
+            />
+            <h2 class="main-content__header">Обо мне</h2>
+          </div>
+          <div class="main-content__body">
+            <p class="main-content__text">
+              Меня зовут Александр Клёсов. Родился 20 июля 1997 года (рак) в
+              г.Магнитогорске. Перед поступлением в университет думал между
+              двумя стезями: <strong>медицина</strong> и
+              <strong>программирование</strong>. По каким-то причинам на тот
+              момент выбрал медицину. После окончания университета переехал в
+              <strong>Екатеринбург</strong>, где и живу по сей день. В какой-то
+              момент понял, что не хочу продолжать в роли врача и решил
+              попробовать себя в программировании. Учился и продолжаю учиться
+              <strong>фронтенд</strong> разработке: читаю книги, статьи, посты,
+              прохожу разные курсы, делаю проекты. Помимо других плюсов этой
+              профессии, которые меня привлекли, хочу обратить внимание на то,
+              что ее можно считать творческой профессией, а также с помощью
+              программирования можно автоматизировать какие-то собственные
+              бытовые процессы, что тоже очень привлекает. Поэтому считаю себя
+              достаточно <strong>замотивированным</strong>
+              для начала прохождения пути фронтенд разработчика. В дальнейших
+              планах у меня имеется изучение Node.js, Phyton. А дальше - больше.
+            </p>
+            <p class="main-content__text">
+              Опыта коммерческой разработки не имею, но готов его получить.
+            </p>
+            <p class="main-content__text">
+              На данный момент работаю в <strong> АО "ПФ СКБ Контур"</strong> на
+              должности специалиста технической поддержки.
+            </p>
+          </div>
+          <div class="divide divide-black"></div>
+        </section>
+        <section class="main-content">
+          <div id="education" class="main-content__head">
+            <img
+              src="./img/education.svg"
+              alt="education icon"
+              class="main-content__img"
+            />
+            <h2 class="main-content__header">Образование</h2>
+          </div>
+          <ul class="main-content__body education-list">
+            <li class="education-list__item">
+              <a
+                href="./diplom.pdf"
+                target="_blank"
+                class="education-list__text"
+              >
+                <span class="bold-text"
+                  >Южноуральский Государственный Медицинский Университет.</span
+                >
+                <span class="normal-text">2015-2021.</span>
+                <span class="normal-text"> Врач-лечебник.</span>
+              </a>
+            </li>
+            <li class="education-list__item">
+              <a class="education-list__text">
+                <span class="bold-text">The Rolling Scopes School.</span>
+                <span class="normal-text">2022.</span>
+                <span class="normal-text"> Frontend разработчик.</span>
+              </a>
+            </li>
+          </ul>
+          <div class="divide divide-black"></div>
+        </section>
+        <section class="main-content">
+          <div id="code" class="main-content__head">
+            <img
+              src="./img/codeex.svg"
+              alt="code example icon"
+              class="main-content__img"
+            />
+            <h2 class="main-content__header">Мой код</h2>
+          </div>
+          <div class="main-content__body">
+            <a
+              href="https://www.codewars.com/users/Nexuslolz-rss/completed_solutions"
+              class="main-content__link-code"
+              target="_blank"
+            >
+              <img
+                src="https://www.codewars.com/users/Nexuslolz-rss/badges/large"
+                alt="codewars"
+            /></a>
+           <div class="main-content__text">Также примеры кода можно увидеть в моем профиле на <a href="https://github.com/Nexuslolz" target="_blank" class="main-content__link"> GitHub</a>. Кроме того в разделе <a href="#projects" class="main-content__link"> "Мои проекты"</a> работы
+            расположены в хронологическом порядке, поэтому можно отследить эволюцию написания кода.
+           </div>
+        </section>
+        <section class="main-content">
+          <div id="projects" class="main-content__head">
+            <img
+              src="./img/projects.svg"
+              alt="projects icon"
+              class="main-content__img"
+            />
+            <h2 class="main-content__header">Мои проекты</h2>
+          </div>
+          <div class="sliders">
+            <div class="slider-big">
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Gllacy shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Gllacy-shop"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/glacyScreen.png"
+                    alt="Gllacy shop"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Burger shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Burger-shop"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/burgerScreen.png"
+                    alt="Burger shop"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Auto shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Auto-shop"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/autoScreen.png"
+                    alt="Auto shop"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Cinema</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Cinema"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/cinemaScreen.png"
+                    alt="Cinema"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Cat Energy</h3>
+                <a
+                  href="https://github.com/Nexuslolz/CatEnergy"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/catenergyScreen.png"
+                    alt="Cat Energy"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Нямушка</h3>
+                <a
+                  href="https://github.com/Nexuslolz/catFood-landing"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/nyamScreen.png"
+                    alt="Нямушка"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Roof academy</h3>
+                <a
+                  href="https://github.com/Nexuslolz/roof-academy"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/roofScreen.png"
+                    alt="Roof academy"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Игра "Змейка"</h3>
+                <a
+                  href="https://github.com/Nexuslolz/snakeGame"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/snakeScreen.png"
+                    alt="Игра Змейка"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Travel portal</h3>
+                <a
+                  href="https://github.com/Nexuslolz/travel-portal"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/travelScreen.png"
+                    alt="Travel portal"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+              <div class="slider-big__item">
+                <h3 class="slider-big__name">Momentum</h3>
+                <a
+                  href="https://github.com/Nexuslolz/momentum"
+                  target="_blank"
+                  class="slider-big__link"
+                >
+                  <img
+                    src="./img/momentumScreen.png"
+                    alt="Momentum"
+                    class="slider-big__img"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="slider">
+              <div class="slider__item">
+                <h3 class="slider__name">Gllacy shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Gllacy-shop"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/glacyScreen.png"
+                    alt="Gllacy shop"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Burger shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Burger-shop"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/burgerScreen.png"
+                    alt="Burger shop"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Auto shop</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Auto-shop"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/autoScreen.png"
+                    alt="Auto shop"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Cinema</h3>
+                <a
+                  href="https://github.com/Nexuslolz/Cinema"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/cinemaScreen.png"
+                    alt="Cinema"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Cat Energy</h3>
+                <a
+                  href="https://github.com/Nexuslolz/CatEnergy"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/catenergyScreen.png"
+                    alt="Cat Energy"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Нямушка</h3>
+                <a
+                  href="https://github.com/Nexuslolz/catFood-landing"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/nyamScreen.png"
+                    alt="Нямушка"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Roof academy</h3>
+                <a
+                  href="https://github.com/Nexuslolz/roof-academy"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/roofScreen.png"
+                    alt="Roof academy"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Игра "Змейка"</h3>
+                <a
+                  href="https://github.com/Nexuslolz/snakeGame"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/snakeScreen.png"
+                    alt="Игра Змейка"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              <div class="slider__item">
+                <h3 class="slider__name">Travel portal</h3>
+                <a
+                  href="https://github.com/Nexuslolz/travel-portal"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/travelScreen.png"
+                    alt="Travel portal"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+              
+              <div class="slider__item">
+                <h3 class="slider__name">Momentum</h3>
+                <a
+                  href="https://github.com/Nexuslolz/momentum"
+                  target="_blank"
+                  class="slider__link"
+                >
+                  <img
+                    src="./img/momentumScreen.png"
+                    alt="Momentum"
+                    class="slider__img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="production">
+        <div class="dev-link">
+          <a
+            href="https://github.com/Nexuslolz"
+            target="_blank"
+            class="dev-link__link"
+          >
+            <img
+              src="./img/GitHub.svg"
+              alt="github"
+              class="dev-link__img"
+              width="25"
+              height="25"
+            />
+            <span class="dev-link__text">My GitHub</span>
+          </a>
+        </div>
+        <div class="developer">
+          <pre><span class="developer__text">© 2022  by  Alexandr  Klyosov</span></pre>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
