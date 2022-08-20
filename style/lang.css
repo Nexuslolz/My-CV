@@ -1,0 +1,16 @@
+#lang-list{
+    list-style:disc outside;
+}
+.lang-list__name{
+    text-decoration: underline;
+}
+.lang-list__item{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+.lang-list__level{
+    margin-left: 35px;
+    display: list-item;
+    list-style: circle;
+}
