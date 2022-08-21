@@ -40,6 +40,7 @@
 
 @media(max-width:800px) {
     .page-main__right-column {
+        animation: open-right-mobile 0.5s linear;
         order: -1;
         margin-top: 12%;
         padding: 0 30px;
@@ -93,7 +94,7 @@
         width: 25vw;
         margin: 0;
         top: 0;
-        left: 70%;
+        left: 67%;
     }
 
     .main-nav__list_open .site-list {
