@@ -147,6 +147,11 @@
     .slider-big__name {
         font-size: 15px;
     }
+
+    .slider__name {
+        display: block;
+        margin: 0;
+    }
 }
 
 .slider-big__img {

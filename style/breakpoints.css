@@ -114,7 +114,7 @@
         font-weight: bold;
         color: white;
         position: relative;
-        left: 65vw;
+        left: 60vw;
         content: '';
         background-image: url(../img/homePage.svg);
         background-repeat: no-repeat;
@@ -216,7 +216,7 @@
     }
 
     .slick-arrow {
-        top: 30%;
+        top: 45%;
     }
 
     .slick-arrow.slick-prev {
