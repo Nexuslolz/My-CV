@@ -40,7 +40,7 @@
 
 @media(max-width:800px) {
     .page-main__right-column {
-        animation: open-right 1.3s ease-out;
+        animation: open-right 1s ease-out;
         order: -1;
         margin-top: 12%;
         padding: 0 30px;
