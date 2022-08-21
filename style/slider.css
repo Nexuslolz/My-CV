@@ -96,6 +96,7 @@
     max-width: 750px;
     width: 45vw;
     max-width: 730px;
+    min-width: 350px;
 
 }
 
@@ -116,6 +117,8 @@
 
 .slider__img {
     width: 10vw;
+    min-width: 300px;
+
 }
 
 .slider__name {
@@ -140,6 +143,12 @@
     }
 }
 
+@media(max-width:800px) {
+    .slider-big__name {
+        font-size: 15px;
+    }
+}
+
 .slider-big__img {
     width: 45vw;
 }
@@ -152,5 +161,5 @@
     padding: 0 35px;
     margin-left: 3vw;
     max-width: 730px;
-    /* max-height: 800px; */
+    min-width: 350px;
 }

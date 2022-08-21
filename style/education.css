@@ -4,6 +4,9 @@
     gap: 5%;
     list-style: none;
     height: 150%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
 .education-list__item {
@@ -33,6 +36,7 @@
     height: 100%;
     color: white;
     text-decoration: none;
+    min-height: 400px;
 }
 
 .education-list__text span {

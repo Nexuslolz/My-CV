@@ -1,4 +1,4 @@
-.code-example{
+.code-example {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -6,20 +6,29 @@
     border-radius: 10px;
     color: white;
 }
-.code__var-name{
+
+.code__var-name {
     color: rgb(230, 149, 0);
 }
-.code__keyword{
+
+.code__keyword {
     color: rgb(186, 5, 186);
 }
-.code__func{
+
+.code__func {
     color: lightblue;
 }
-.code__wrap{
+
+.code__wrap {
     color: rgb(83, 200, 0);
 }
-code{
+
+code {
     position: relative;
     right: 145px;
     font-size: 100%;
+}
+
+.main-content__code-img {
+    width: 100%;
 }
