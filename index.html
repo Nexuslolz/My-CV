@@ -15,20 +15,14 @@
     <link rel="stylesheet" href="./style/education.css" />
     <link rel="stylesheet" href="./style/code.css" />
     <link rel="stylesheet" href="./style/projects.css" />
-    <link rel="stylesheet" href="./style/breakpoints.css" />
     <link rel="stylesheet" href="./style/production.css" />
     <link rel="stylesheet" href="./style/content-box.css" />
     <link rel="stylesheet" href="./style/slider.css" />
+    <link rel="stylesheet" href="./style/breakpoints.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js
     "></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/slider.js"></script>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto&display=swap"
-      rel="stylesheet"
-    /> -->
     <title>Alexandr Klyosov CV</title>
   </head>
   <body class="page__body">
@@ -37,7 +31,7 @@
         <div class="main-nav__list main-nav__list_close">
           <div class="main-nav__wrapper">
             <button class="main-nav__toggle" type="button">
-              <span class="visually-hidden">Открыть меню</span>
+              <span class="visually-hidden">Меню</span>
             </button>
           </div>
           <ul class="site-list">
@@ -67,8 +61,16 @@
       </nav>
     </header>
     <main class="page-main">
+      <section class="content-box mobile-box">
+        <img
+          class="content-box__img"
+          src="./img/631127710.jpeg"
+          alt="My photo"
+        />
+        <h1 class="content-box__name">Александр Юрьевич Клёсов</h1>
+      </section>
       <div class="page-main__left-column">
-        <section class="content-box">
+        <section class="content-box desktop-box">
           <img
             class="content-box__img"
             src="./img/631127710.jpeg"
@@ -336,6 +338,7 @@
               <img
                 src="https://www.codewars.com/users/Nexuslolz-rss/badges/large"
                 alt="codewars"
+                class="main-content__code-img"
             /></a>
            <div class="main-content__text">Также примеры кода можно увидеть в моем профиле на <a href="https://github.com/Nexuslolz" target="_blank" class="main-content__link"> GitHub</a>. Кроме того в разделе <a href="#projects" class="main-content__link"> "Мои проекты"</a> работы
             расположены в хронологическом порядке, поэтому можно отследить эволюцию написания кода.
