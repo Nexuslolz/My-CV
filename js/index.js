@@ -46,7 +46,6 @@ let arr = []
 for (i = 0; i < skillsWrapper.length * 3; i++) {
   let x = Math.floor(Math.random() * skillsWrapper.length)
 
-  console.log(x)
   skillsWrapper[x].style.animation = 'skill-rotate 5s linear infinite';
   skillsWrapper[x].style.animationDelay = `${i + 3}s`
 }
