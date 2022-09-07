@@ -46,6 +46,25 @@
 
 .main-content__text {
     width: 100%;
+    margin: 1%;
+}
+
+.main-content-paragraph {
+    margin: 1%;
+    text-indent: 3%;
+}
+
+.main-content-list {
+    margin: 1%;
+    list-style: disc;
+}
+
+.main-content-list__item {
+    margin-bottom: 0.3%;
+}
+
+.main-content-list__item::marker {
+    color: #393e49;
 }
 
 .main-content__wrapper {
