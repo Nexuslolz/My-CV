@@ -43,7 +43,7 @@ closeOverlay.addEventListener('click', function () {
 const skillsWrapper = document.querySelectorAll('.skills-list__wrapper')
 let arr = []
 
-for (i = 0; i < skillsWrapper.length * 3; i++) {
+for (i = 0; i < skillsWrapper.length * 4; i++) {
   let x = Math.floor(Math.random() * skillsWrapper.length)
 
   skillsWrapper[x].style.animation = 'skill-rotate 5s linear infinite';
