@@ -12,14 +12,14 @@
 
 @keyframes appearance {
     0% {
-        background-color: transparent;
-        box-shadow: none;
-    }
-
-    25% {
         background-color: #404452;
         box-shadow: 0px 5px 15px 5px #1d212a;
 
+    }
+
+    25% {
+        background-color: transparent;
+        box-shadow: none;
     }
 
     55% {
@@ -28,8 +28,20 @@
     }
 
     100% {
+        background-color: #404452;
+        box-shadow: 0px 5px 15px 5px #1d212a;
+    }
+}
+
+@keyframes hover {
+    0% {
         background-color: transparent;
         box-shadow: none;
+    }
+
+    100% {
+        background-color: #404452;
+        box-shadow: 0px 5px 15px 5px #1d212a;
     }
 }
 
@@ -41,8 +53,8 @@
 .main-nav:hover {
     padding-top: 1%;
     transition: 0.3s;
-    animation-play-state: paused;
-
+    animation: hover 0.3s linear;
+    background-color: #404452;
 }
 
 .main-nav:hover .site-list__link {
