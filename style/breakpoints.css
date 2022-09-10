@@ -78,7 +78,10 @@
 
     .main-nav:hover {
         padding-top: 0%;
+        animation: none;
+        background-color: transparent;
     }
+
 
     .main-nav__wrapper {
         position: relative;
