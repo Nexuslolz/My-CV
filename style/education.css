@@ -28,6 +28,11 @@
     background-color: gray;
 }
 
+.education-list__item_disabled:hover,
+.education-list__item_disabled * {
+    cursor: not-allowed;
+}
+
 .education-list__text {
     display: flex;
     flex-direction: column;
