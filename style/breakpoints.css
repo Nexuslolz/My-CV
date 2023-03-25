@@ -124,8 +124,7 @@
         text-transform: uppercase;
         font-weight: bold;
         color: white;
-        position: relative;
-        left: 60vw;
+        position: absolute;
         content: '';
         background-image: url(../img/homePage.svg);
         background-repeat: no-repeat;
@@ -135,6 +134,8 @@
         height: 7vw;
         max-width: 35px;
         max-height: 35px;
+        right: 15%;
+        top: 25%;
     }
 
     .main-nav__list_open .site-list {
@@ -297,6 +298,12 @@
     }
 }
 
+@media(max-width: 680px) {
+    .content-box__body {
+        flex-wrap: wrap;
+    }
+}
+
 @media(max-width:500px) {
     .education-list__item {
         min-width: 170px;
@@ -328,8 +335,9 @@
 
     }
 
-    .content-box__body {
-        flex-wrap: wrap;
+    .content-box__main-img {
+        min-height: 170px;
+        width: 40%;
     }
 
     .developer__text {

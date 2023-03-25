@@ -2,6 +2,7 @@
     align-items: center;
     width: 100%;
     padding: 0%;
+    min-height: 250px;
 }
 
 .content-box {
@@ -11,13 +12,7 @@
     width: 100%;
     border-bottom: 2px solid rgba(255, 255, 255, 0.205);
     padding: 10% 0;
-}
-
-.content-box__img {
-    border-radius: 10px;
-    box-shadow: 0px 8px 15px 10px #1d212a;
-    width: 90%;
-    height: 90%;
+    position: relative;
 }
 
 .content-box__body {
@@ -34,4 +29,17 @@
     width: 250px;
     padding: 0%;
     order: -2;
+}
+
+.content-box__main-img {
+    background-image: url('../img/avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px 10px #1d212a;
+    width: 90%;
+    height: 90%;
+    max-width: 250px;
+    min-height: 235px;
 }
