@@ -7,16 +7,6 @@ const listOpen = document.querySelector('.main-nav__list')
 togglerBtn.addEventListener('click', function () {
   listOpen.classList.toggle('main-nav__list_close');
   listOpen.classList.toggle('main-nav__list_open');
-
-  // if (listOpen.classList.contains('main-nav__list_open')) {
-  //   listOpen.classList.remove('main-nav__list_open');
-  //   listOpen.classList.add('main-nav__list_close');
-  // }
-  // else {
-  //   listOpen.classList.remove('main-nav__list_close');
-  //   listOpen.classList.add('main-nav__list_open');
-
-  // }
 });
 
 const closeLink = document.querySelectorAll('.site-list__item')
